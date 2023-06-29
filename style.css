@@ -13,20 +13,42 @@
 img {
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
 }
 
-.image-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.pizza-image-container, .sushi-image-container {
+ display: inline-block;
+}
+.sushi-image-container {
+    width:  420px;
+    height: auto;
+    margin-left: 70px;
+    margin-right: -30;
 }
 
+
+.introduction {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    margin-left: 350px;
+}
+
+.pizza-image-container {
+    margin-left: 200px;
+    margin-right: -200px;
+}
 p {
     color: #666666;
     text-align: center;
     font-size: 18px;
     font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.5;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 23px;
+
+    
 }
 
 .title-recipes {
